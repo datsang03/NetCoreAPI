@@ -1,0 +1,8 @@
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+  tr:hover {background-color: coral;}
+  th {
+    background-color: #04AA6D;
+    color: white;
+  }

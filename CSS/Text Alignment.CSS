@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: left;
+  }
+  
+  h3 {
+    text-align: right;
+  }
+  div {
+    text-align: justify;
+  }
+  p.a {
+    text-align-last: right;
+  }
+  
+  p.b {
+    text-align-last: center;
+  }
+  
+  p.c {
+    text-align-last: justify;
+  }
+  img.a {
+    vertical-align: baseline;
+  }
+  
+  img.b {
+    vertical-align: text-top;
+  }
+  
+  img.c {
+    vertical-align: text-bottom;
+  }
+  
+  img.d {
+    vertical-align: sub;
+  }
+  
+  img.e {
+    vertical-align: super;
+  }

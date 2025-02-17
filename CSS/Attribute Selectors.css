@@ -1,0 +1,24 @@
+a[target] {
+    background-color: yellow;
+  }
+  a[target="_blank"] {
+    background-color: yellow;
+  }
+  [title~="flower"] {
+    border: 5px solid yellow;
+  }
+  [class$="test"] {
+    background: yellow;
+  }
+  input[type="text"] {
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: yellow;
+  }
+  
+  input[type="button"] {
+    width: 120px;
+    margin-left: 35px;
+    display: block;
+  }

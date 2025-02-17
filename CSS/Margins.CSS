@@ -1,0 +1,15 @@
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+  div {
+    border: 1px solid red;
+    margin-left: 100px;
+  }
+  
+  p.ex1 {
+    margin-left: inherit;
+  }
+  

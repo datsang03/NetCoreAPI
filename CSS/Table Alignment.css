@@ -1,0 +1,10 @@
+td {
+    text-align: center;
+  }
+  th {
+    text-align: left;
+  }
+  td {
+    height: 50px;
+    vertical-align: bottom;
+  }

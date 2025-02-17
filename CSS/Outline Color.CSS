@@ -1,0 +1,25 @@
+p.ex1 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+  }
+  
+  p.ex2 {
+    border: 2px solid black;
+    outline-style: dotted;
+    outline-color: blue;
+  }
+  
+  p.ex3 {
+    border: 2px solid black;
+    outline-style: outset;
+    outline-color: grey;
+  }
+  p.ex1 {
+    outline-style: solid;
+    outline-color: #ff0000; /* red */
+  }
+  p.ex1 {
+    outline-style: solid;
+    outline-color: rgb(255, 0, 0); /* red */
+  }

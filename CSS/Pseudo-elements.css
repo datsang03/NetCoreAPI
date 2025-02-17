@@ -1,0 +1,24 @@
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+  }
+  p.intro::first-letter {
+    color: #ff0000;
+    font-size: 200%;
+  }
+  p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+  }
+  
+  p::first-line {
+    color: #0000ff;
+    font-variant: small-caps;
+  }
+  h1::before {
+    content: url(smiley.gif);
+  }
+  ::selection {
+    color: red;
+    background: yellow;
+  }

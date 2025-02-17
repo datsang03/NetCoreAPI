@@ -1,0 +1,21 @@
+a.highlight:hover {
+    color: #ff0000;
+  }
+  div:hover {
+    background-color: blue;
+  }
+  p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  div:hover p {
+    display: block;
+  }
+  p i:first-child {
+    color: blue;
+  }
+  p:first-child i {
+    color: blue;
+  }
