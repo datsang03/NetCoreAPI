@@ -11,8 +11,8 @@ public class TinhTienController:Controller
     [HttpPost]
     public IActionResult Index(TinhTien tinhTien)
     {
-        var thanhtien = tinhTien.Quantity*tinhTien.Price;
-        ViewBag.thanhtien =$"Giá của {tinhTien.NameProduct} với số lượng {tinhTien.Quantity} có giá là {thanhtien}";
+        var thanhtien = tinhTien.SoLuong*tinhTien.Gia;
+        ViewBag.thanhtien =$"Giá của {tinhTien.SP} với số lượng {tinhTien.SoLuong} có giá là {thanhtien}";
         return View();
     }
 }

@@ -1,9 +1,9 @@
 namespace MvcMovie.Models;
 public class TinhTien
 {
-    public required string NameProduct { get; set; }
-    public float Quantity { get; set; }
-    public float Price { get; set; }
-    public float thanhtien { get; set; }
+    public required string SP { get; set; }
+    public int SoLuong { get; set; }
+    public int Gia { get; set; }
+    public int thanhtien { get; set; }
 
 }
